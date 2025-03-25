@@ -28,7 +28,7 @@
 		if (confirm) {
 			items = items.filter((v) => v.id != id);
 			totalItems = totalItems - 1;
-			api.delete(`/members/${id}`);
+			api.delete(`/users/${id}`);
 		}
 	};
 
